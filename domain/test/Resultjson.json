@@ -1,0 +1,67 @@
+{ 
+    RouteID: 'ABC',
+    GPSid: 'A123999',
+    legsFromPIA:
+     [  {
+         legID: 0,
+         locationName: 'Costco',
+         ArriveStart: '2020-8-9',
+         Depart: '2020-8-9',
+         LoadTime: '2020-8-9',
+         TransitTime: '2020-8-9',
+         DeliverLocation: 'TOYATO',
+         ArriveEnd: '2020-8-9',
+         Cost: 99 },
+        {
+         legID: 0,
+         locationName: 'Walmart',
+         ArriveStart: '2020-8-9',
+         Depart: '2020-8-9',
+         LoadTime: '2020-8-9',
+         TransitTime: '2020-8-9',
+         DeliverLocation: 'Karmax',
+         ArriveEnd: '2020-8-9',
+         Cost: 199,
+         LegID: 1 } ],
+    legsFromTruck:
+     [ {
+         legID: 0,
+         locationName: 'Costco',
+         ArriveStart: '',
+         Depart: '',
+         LoadTime: '',
+         TransitTime: '',
+         DeliverLocation: 'TOYATO',
+         ArriveEnd: '',
+         Cost: 0 },
+       {
+         legID: 0,
+         locationName: 'Walmart',
+         ArriveStart: '',
+         Depart: '',
+         LoadTime: '',
+         TransitTime: '',
+         DeliverLocation: 'Karmax',
+         ArriveEnd: '',
+         Cost: 0 } ],
+    legStatus:
+     [ {
+         LoadDuration: -1,
+         OnTimeDeparture: -1,
+         ThisLegWholeStatus: 0,
+         RouteStatus: 0,
+         InTransitDuration: -1,
+         OnTimeArrival: -1,
+         OnTimeArrivalForecast: -1,
+         RealQuantity: 0 },
+       {
+         LoadDuration: -1,
+         OnTimeDeparture: -1,
+         ThisLegWholeStatus: 0,
+         RouteStatus: 0,
+         InTransitDuration: -1,
+         OnTimeArrival: -1,
+         OnTimeArrivalForecast: -1,
+         RealQuantity: 0 } ] 
+        
+        }
